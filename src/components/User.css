@@ -1,0 +1,26 @@
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cardUser {
+    border-radius: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: 0.3s ease 0.3s ease;
+    box-shadow: 0.7px 1.3px 2.2px rgba(0, 0, 0, 0.09),
+    1.7px 3.2px 5.3px rgba(0, 0, 0, 0.129), 3.1px 6px 10px rgba(0, 0, 0, 0.16),
+    5.6px 10.7px 17.9px rgba(0, 0, 0, 0.191),
+    10.4px 20.1px 33.4px rgba(0, 0, 0, 0.23), 25px 48px 80px rgba(0, 0, 0, 0.32);
+}
+
+.cardUser:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
